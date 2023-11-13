@@ -9,7 +9,7 @@ function eleventyComputedPermalink() {
 
 		return data.permalink;
 	}
-};
+}
 
 function eleventyComputedExcludeFromCollections() {
 	// When using `addGlobalData` and you *want* to return a function, you must nest functions like this.
@@ -22,7 +22,7 @@ function eleventyComputedExcludeFromCollections() {
 
 		return data.eleventyExcludeFromCollections;
 	}
-};
+}
 
 module.exports.eleventyComputedPermalink = eleventyComputedPermalink;
 module.exports.eleventyComputedExcludeFromCollections = eleventyComputedExcludeFromCollections;
